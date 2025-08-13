@@ -2,8 +2,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
-	<groupId>com.mt</groupId>
-	<artifactId>maven-web-application</artifactId>
+	<groupId>com.nguti</groupId>
+	<artifactId>nguti-web-application</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.2-RELEASE</version>
 	
@@ -12,8 +12,8 @@
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>Mithun Technologies</name>
-		<url>http://mithuntechnologies.com/</url>
+		<name>Nguti Community</name>
+		<url>http://nguticommunity.com/</url>
 	</organization>
 
 	<properties>
@@ -108,7 +108,7 @@
 	     
 	
 	<build>
-		<finalName>maven-web-application</finalName>
+		<finalName>nguti-web-application</finalName>
 		
 		<plugins>
 			<plugin>
@@ -128,7 +128,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/maven-web-application</contextPath>
+						<contextPath>/nguti-web-application</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
